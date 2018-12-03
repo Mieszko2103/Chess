@@ -36,8 +36,8 @@ public class Board {
 //                else if (i == 7 && (j == 1 || j == 6)) board[i][j].setOcupatedBy(new Bishop(false,board[i][j]));
 //                else if (i == 7 && (j == 2 || j == 5)) board[i][j].setOcupatedBy(new Horse(false,board[i][j]));
 //                else if (i == 7 && j == 4) board[i][j].setOcupatedBy(new Queen(false,board[i][j]));
-                else if (i == 6 && j==3) board[i][j].setOcupatedBy(new Pawn(true,board[i][j]));
-               else if (i == 7 && j==3) board[i][j].setOcupatedBy(new King(true,board[i][j]));
+                else if (i == 6 && j==3) board[i][j].setOcupatedBy(new Pawn(false,board[i][j]));
+               else if (i == 7 && j==3) board[i][j].setOcupatedBy(new Pawn(true,board[i][j]));
             }
         }
     }

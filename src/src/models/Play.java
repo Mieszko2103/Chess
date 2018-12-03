@@ -9,7 +9,7 @@ public class Play {
 
         board.show();
        // System.out.println(board.getBoard()[6][3].getOcupatedBy());
-        board.getBoard()[7][3].getOcupatedBy().move(board.getBoard()[6][3]);
+        board.getBoard()[6][3].getOcupatedBy().move(board.getBoard()[7][3]);
         board.show();
     }
 }
